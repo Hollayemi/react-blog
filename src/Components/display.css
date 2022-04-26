@@ -1,0 +1,58 @@
+.contact{
+    background-image: url('../asset/contactBG.png');
+    background-size: contain;
+    min-height: 100vh;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.83);
+    min-height: 100vh;
+}
+.overlay2{
+    background-color: rgba(0, 0, 0, 0.549);
+}
+
+.scrollBar::-webkit-scrollbar{
+    width:2px;
+    background-color:rgb(255, 255, 255);
+}
+.scrollBar::-webkit-scrollbar-button{
+    background-color: rgb(68, 117, 252);
+    display: none;
+}
+.scrollBar::-webkit-scrollbar-thumb{
+    background-color: teal;
+    border-radius:30px;
+    width:5px;
+}
+.mainHightPic{
+    height: calc( 100vh - 190px );
+}
+.myTrans{
+    transition:.5 !important;
+    transition-duration: 700;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+.progress-bar {
+    background-color: whiteSmoke;
+    border-radius: 2px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25) inset;
+
+    width: 250px;
+    height: 20px;
+
+    position: relative;
+    display: block;
+}
+.progress-bar > span {
+    background-color: blue;
+    border-radius: 2px;
+
+    display: block;
+    text-indent: -9999px;
+
+}
